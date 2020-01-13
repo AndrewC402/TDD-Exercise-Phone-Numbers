@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d07e14d-f0a7-4e7a-9a70-51c5c253da31" name="Default Changelist" comment="" />
+    <list default="true" id="2d07e14d-f0a7-4e7a-9a70-51c5c253da31" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/phoneNumberValidator/PhoneNumberValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/phoneNumberValidator/PhoneNumberValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1W7Jq7IZqgJCLlGXWrSmd70THtw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +41,77 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.qa.phoneNumberValidator" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.qa.phoneNumberValidator" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PhoneNumberValidatorTest.special_characters_removed_from_phone_number">
+    <configuration name="PhoneNumberValidatorTest.happy_data_returns_correct_length" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD Phone Numbers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.phoneNumberValidator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.phoneNumberValidator" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.phoneNumberValidator.PhoneNumberValidatorTest" />
+      <option name="METHOD_NAME" value="happy_data_returns_correct_length" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneNumberValidatorTest.phone_number_with_more_than_ten_numbers_returns_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD Phone Numbers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.phoneNumberValidator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.phoneNumberValidator" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.phoneNumberValidator.PhoneNumberValidatorTest" />
+      <option name="METHOD_NAME" value="phone_number_with_more_than_ten_numbers_returns_invalid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneNumberValidatorTest.special_characters_removed_from_phone_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD Phone Numbers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.phoneNumberValidator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.phoneNumberValidator" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.phoneNumberValidator.PhoneNumberValidatorTest" />
+      <option name="METHOD_NAME" value="special_characters_removed_from_phone_number" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PhoneNumberValidatorTest.special_characters_removed_from_phone_number" />
+        <item itemvalue="JUnit.PhoneNumberValidatorTest.happy_data_returns_correct_length" />
+        <item itemvalue="JUnit.PhoneNumberValidatorTest.phone_number_with_more_than_ten_numbers_returns_invalid" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -40,5 +137,55 @@
       <updated>1578494887218</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1372" y="92" width="1096" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578909788976">
+      <screen x="1280" y="0" width="1280" height="984" />
+    </state>
+    <state x="1372" y="92" width="1096" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578909788976" />
+    <state x="445" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1578495348148">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="445" y="209" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578495348148" />
+    <state x="370" y="268" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1578495454900">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="370" y="268" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578495454900" />
+    <state x="436" y="352" width="416" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578495456025">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="436" y="352" width="416" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578495456025" />
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1578909823167">
+      <screen x="1280" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578495964062" />
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578909823167" />
+    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1578909823167">
+      <screen x="1280" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578495964062" />
+    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578909823167" />
+    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1578909823167">
+      <screen x="1280" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578495964062" />
+    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578909823167" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1578909823167">
+      <screen x="1280" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578495964062" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578909823167" />
+    <state x="336" y="317" key="com.intellij.ide.util.TipDialog" timestamp="1578560641626">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="336" y="317" key="com.intellij.ide.util.TipDialog/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578560641626" />
+    <state x="411" y="211" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578495479958">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="411" y="211" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578495479958" />
+    <state x="22" y="195" key="new project wizard" timestamp="1578561064835">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="22" y="195" key="new project wizard/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578561064835" />
   </component>
 </project>
