@@ -8,9 +8,9 @@ public class PhoneNumberValidator {
     }
 
     public String getPhoneNumber() {
-        phoneNumber = phoneNumber.replaceAll("[^+0-9]", "");
+        phoneNumber = phoneNumber.replaceAll("[^+0-9]", ""); //replaces all special characters apart from "+" with an empty string
 
-        if (!(phoneNumber.length() == 11) || !(phoneNumber.startsWith("+1"))) {
+        if (!(phoneNumber.length() == 12) || !(phoneNumber.contains("+1")) || !(phoneNumber.indexOf("+") == 0)) { //checks that the phone number is exactly 11 characters and that the "+" is only at the beginning
             phoneNumber = "Invalid";
         }
 
