@@ -21,6 +21,34 @@ class PhoneNumberValidatorTest {
     }
 
     @Test
+    void phone_number_of_incorrect_length_returns_invalid () {
+        //arrange
+        String phoneNumber = "1234567891011";
+        String expectedResult = "Invalid";
+        PhoneNumberValidator cut = new PhoneNumberValidator(phoneNumber);
+
+        //act
+        String actualResult = cut.getPhoneNumber();
+
+        //assert
+        assertEquals(expectedResult,actualResult);
+    }
+
+    @Test
+    void phone_number_not_beginning_with_plus_1_returns_invalid () {
+        //arrange
+        String phoneNumber = "12345678910";
+        String expectedResult = "Invalid";
+        PhoneNumberValidator cut = new PhoneNumberValidator(phoneNumber);
+
+        //act
+        String actualResult = cut.getPhoneNumber();
+
+        //assert
+        assertEquals(expectedResult,actualResult);
+    }
+
+    @Test
     void special_characters_removed_from_phone_number () {
         //arrange
         String phoneNumber = "+10,5 9!34,34%56";
@@ -34,17 +62,5 @@ class PhoneNumberValidatorTest {
         assertEquals(expectedResult,actualResult);
     }
 
-    @Test
-    void phone_number_with_more_than_ten_numbers_returns_invalid () {
-        //arrange
-        String phoneNumber = "1234567891011";
-        String expectedResult = "Invalid";
-        PhoneNumberValidator cut = new PhoneNumberValidator(phoneNumber);
 
-        //act
-        String actualResult = cut.getPhoneNumber();
-
-        //assert
-        assertEquals(expectedResult,actualResult);
-    }
 }
