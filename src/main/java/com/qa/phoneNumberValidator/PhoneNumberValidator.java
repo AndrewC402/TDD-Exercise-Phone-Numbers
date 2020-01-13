@@ -23,7 +23,7 @@ public class PhoneNumberValidator {
 
     public String getAreaCode() {
         getPhoneNumber();
-        if (!phoneNumber.equals("Invalid")) {
+        if (!phoneNumber.equals("Invalid") && phoneNumber.substring(2).matches("[2-9]")) {
             areaCode = phoneNumber.substring(2,5);
         } else {
             areaCode = invalidPhoneNumber;

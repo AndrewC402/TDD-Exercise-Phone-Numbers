@@ -58,7 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PhoneNumberValidatorTest.subscriber_number_returns_false_from_invalid_phone_number">
+  <component name="RunManager" selected="JUnit.PhoneNumberValidatorTest.area_code_returned_from_valid_phone_number">
     <configuration name="PhoneNumberValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD Phone Numbers" />
       <extension name="coverage">
@@ -70,6 +70,22 @@
       <option name="PACKAGE_NAME" value="com.qa.phoneNumberValidator" />
       <option name="MAIN_CLASS_NAME" value="com.qa.phoneNumberValidator.PhoneNumberValidatorTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneNumberValidatorTest.area_code_first_character_must_be_between_two_and_nine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD Phone Numbers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.phoneNumberValidator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.phoneNumberValidator" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.phoneNumberValidator.PhoneNumberValidatorTest" />
+      <option name="METHOD_NAME" value="area_code_first_character_must_be_between_two_and_nine" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneNumberValidatorTest.exchange_code_returned_from_valid_phone_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneNumberValidatorTest.exchange_code_first_character_must_be_between_two_and_nine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD Phone Numbers" />
       <extension name="coverage">
         <pattern>
@@ -100,23 +116,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.phoneNumberValidator" />
       <option name="MAIN_CLASS_NAME" value="com.qa.phoneNumberValidator.PhoneNumberValidatorTest" />
-      <option name="METHOD_NAME" value="exchange_code_returned_from_valid_phone_number" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PhoneNumberValidatorTest.subscriber_number_returned_from_valid_phone_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDD Phone Numbers" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qa.phoneNumberValidator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qa.phoneNumberValidator" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.phoneNumberValidator.PhoneNumberValidatorTest" />
-      <option name="METHOD_NAME" value="subscriber_number_returned_from_valid_phone_number" />
+      <option name="METHOD_NAME" value="exchange_code_first_character_must_be_between_two_and_nine" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PhoneNumberValidatorTest.subscriber_number_returns_false_from_invalid_phone_number" />
-        <item itemvalue="JUnit.PhoneNumberValidatorTest.subscriber_number_returned_from_valid_phone_number" />
-        <item itemvalue="JUnit.PhoneNumberValidatorTest" />
-        <item itemvalue="JUnit.PhoneNumberValidatorTest.exchange_code_returned_from_valid_phone_number" />
         <item itemvalue="JUnit.PhoneNumberValidatorTest.area_code_returned_from_valid_phone_number" />
+        <item itemvalue="JUnit.PhoneNumberValidatorTest" />
+        <item itemvalue="JUnit.PhoneNumberValidatorTest.exchange_code_first_character_must_be_between_two_and_nine" />
+        <item itemvalue="JUnit.PhoneNumberValidatorTest.area_code_first_character_must_be_between_two_and_nine" />
+        <item itemvalue="JUnit.PhoneNumberValidatorTest.subscriber_number_returns_false_from_invalid_phone_number" />
       </list>
     </recent_temporary>
   </component>
@@ -194,26 +194,26 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="436" y="352" width="416" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578495456025" />
-    <state width="1220" height="142" key="GridCell.Tab.0.bottom" timestamp="1578925726775">
+    <state width="1220" height="141" key="GridCell.Tab.0.bottom" timestamp="1578929462655">
       <screen x="1280" y="0" width="1280" height="984" />
     </state>
     <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578915933666" />
-    <state width="1220" height="142" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578925726775" />
-    <state width="1220" height="142" key="GridCell.Tab.0.center" timestamp="1578925726775">
+    <state width="1220" height="141" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578929462655" />
+    <state width="1220" height="141" key="GridCell.Tab.0.center" timestamp="1578929462655">
       <screen x="1280" y="0" width="1280" height="984" />
     </state>
     <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578915933666" />
-    <state width="1220" height="142" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578925726775" />
-    <state width="1220" height="142" key="GridCell.Tab.0.left" timestamp="1578925726775">
+    <state width="1220" height="141" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578929462655" />
+    <state width="1220" height="141" key="GridCell.Tab.0.left" timestamp="1578929462655">
       <screen x="1280" y="0" width="1280" height="984" />
     </state>
     <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578915933666" />
-    <state width="1220" height="142" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578925726775" />
-    <state width="1220" height="142" key="GridCell.Tab.0.right" timestamp="1578925726775">
+    <state width="1220" height="141" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578929462655" />
+    <state width="1220" height="141" key="GridCell.Tab.0.right" timestamp="1578929462655">
       <screen x="1280" y="0" width="1280" height="984" />
     </state>
     <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578915933666" />
-    <state width="1220" height="142" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578925726775" />
+    <state width="1220" height="141" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578929462655" />
     <state width="1220" height="322" key="GridCell.Tab.1.bottom" timestamp="1578919009283">
       <screen x="1280" y="0" width="1280" height="984" />
     </state>

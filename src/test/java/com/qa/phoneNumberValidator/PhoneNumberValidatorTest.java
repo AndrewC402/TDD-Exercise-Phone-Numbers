@@ -6,19 +6,20 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PhoneNumberValidatorTest {
 
-    private String validPhoneNumber = "+11234567891";
+    private String validPhoneNumber = "+12234567891";
+    private PhoneNumberValidator cut;
 
     @Test
     void happy_data_returns_correct_length () {
         //arrange
         int expectedResult = 12;
-        PhoneNumberValidator cut = new PhoneNumberValidator(validPhoneNumber);
+        cut = new PhoneNumberValidator(validPhoneNumber);
 
         //act
         int actualResult = cut.getPhoneNumber().length();
 
         //assert
-        assertEquals(expectedResult,actualResult);
+        assertEquals(expectedResult,actualResult,"");
     }
 
     @Test
@@ -26,7 +27,7 @@ class PhoneNumberValidatorTest {
         //arrange
         String phoneNumber = "+1234567891011";
         String expectedResult = "Invalid";
-        PhoneNumberValidator cut = new PhoneNumberValidator(phoneNumber);
+        cut = new PhoneNumberValidator(phoneNumber);
 
         //act
         String actualResult = cut.getPhoneNumber();
@@ -40,7 +41,7 @@ class PhoneNumberValidatorTest {
         //arrange
         String phoneNumber = "72345678910";
         String expectedResult = "Invalid";
-        PhoneNumberValidator cut = new PhoneNumberValidator(phoneNumber);
+        cut = new PhoneNumberValidator(phoneNumber);
 
         //act
         String actualResult = cut.getPhoneNumber();
@@ -54,7 +55,7 @@ class PhoneNumberValidatorTest {
         //arrange
         String phoneNumber = "+10,5 9!34,34%561";
         String expectedResult = "+10593434561";
-        PhoneNumberValidator cut = new PhoneNumberValidator(phoneNumber);
+        cut = new PhoneNumberValidator(phoneNumber);
 
         //act
         String actualResult = cut.getPhoneNumber();
@@ -68,7 +69,7 @@ class PhoneNumberValidatorTest {
         //arrange
         String phoneNumber = "01234+67891";
         String expectedResult = "Invalid";
-        PhoneNumberValidator cut = new PhoneNumberValidator(phoneNumber);
+        cut = new PhoneNumberValidator(phoneNumber);
 
         //act
         String actualResult = cut.getPhoneNumber();
@@ -80,11 +81,11 @@ class PhoneNumberValidatorTest {
     @Test
     void area_code_returned_from_valid_phone_number () {
         //arrange
-        String expectedResult = "123";
-        PhoneNumberValidator cut = new PhoneNumberValidator(validPhoneNumber);
+        String expectedResult = "223";
+        cut = new PhoneNumberValidator(validPhoneNumber);
 
         //act
-        String actualResult =cut.getAreaCode();
+        String actualResult = cut.getAreaCode();
 
         //assert
         assertEquals(expectedResult,actualResult);
@@ -94,7 +95,7 @@ class PhoneNumberValidatorTest {
     void exchange_code_returned_from_valid_phone_number () {
         //arrange
         String expectedResult = "456";
-        PhoneNumberValidator cut = new PhoneNumberValidator(validPhoneNumber);
+        cut = new PhoneNumberValidator(validPhoneNumber);
 
         //act
         String actualResult = cut.getExchangeCode();
@@ -107,7 +108,7 @@ class PhoneNumberValidatorTest {
     void subscriber_number_returned_from_valid_phone_number () {
         //arrange
         String expectedResult = "7891";
-        PhoneNumberValidator cut = new PhoneNumberValidator(validPhoneNumber);
+        cut = new PhoneNumberValidator(validPhoneNumber);
 
         //act
         String actualResult = cut.getSubscriberNumber();
@@ -121,10 +122,36 @@ class PhoneNumberValidatorTest {
         //arrange
         String phoneNumber = "01kj7gfjgf0)0";
         String expectedResult = "Phone number invalid";
-        PhoneNumberValidator cut = new PhoneNumberValidator(phoneNumber);
+        cut = new PhoneNumberValidator(phoneNumber);
 
         //act
         String actualResult = cut.getSubscriberNumber();
+
+        //assert
+        assertEquals(expectedResult,actualResult);
+    }
+
+    @Test
+    void area_code_first_character_must_be_between_two_and_nine () {
+        //arrange
+        String expectedResult = "Phone number invalid";
+        cut = new PhoneNumberValidator(validPhoneNumber);
+
+        //act
+        String actualResult = cut.getAreaCode();
+
+        //assert
+        assertEquals(expectedResult,actualResult);
+    }
+
+    @Test
+    void exchange_code_first_character_must_be_between_two_and_nine () {
+        //arrange
+        String expectedResult = "Phone number invalid";
+        cut = new PhoneNumberValidator(validPhoneNumber);
+
+        //act
+        String actualResult = cut.getAreaCode();
 
         //assert
         assertEquals(expectedResult,actualResult);
