@@ -43,6 +43,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -55,7 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PhoneNumberValidatorTest">
+  <component name="RunManager" selected="JUnit.PhoneNumberValidatorTest.subscriber_number_returns_false_from_invalid_phone_number">
     <configuration name="PhoneNumberValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD Phone Numbers" />
       <extension name="coverage">
@@ -71,7 +74,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneNumberValidatorTest.happy_data_returns_correct_length" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneNumberValidatorTest.area_code_returned_from_valid_phone_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD Phone Numbers" />
       <extension name="coverage">
         <pattern>
@@ -81,13 +84,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.phoneNumberValidator" />
       <option name="MAIN_CLASS_NAME" value="com.qa.phoneNumberValidator.PhoneNumberValidatorTest" />
-      <option name="METHOD_NAME" value="happy_data_returns_correct_length" />
+      <option name="METHOD_NAME" value="area_code_returned_from_valid_phone_number" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneNumberValidatorTest.misplaced_plus_returns_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneNumberValidatorTest.exchange_code_returned_from_valid_phone_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD Phone Numbers" />
       <extension name="coverage">
         <pattern>
@@ -97,13 +100,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.phoneNumberValidator" />
       <option name="MAIN_CLASS_NAME" value="com.qa.phoneNumberValidator.PhoneNumberValidatorTest" />
-      <option name="METHOD_NAME" value="misplaced_plus_returns_invalid" />
+      <option name="METHOD_NAME" value="exchange_code_returned_from_valid_phone_number" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneNumberValidatorTest.phone_number_of_incorrect_length_returns_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneNumberValidatorTest.subscriber_number_returned_from_valid_phone_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD Phone Numbers" />
       <extension name="coverage">
         <pattern>
@@ -113,13 +116,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.phoneNumberValidator" />
       <option name="MAIN_CLASS_NAME" value="com.qa.phoneNumberValidator.PhoneNumberValidatorTest" />
-      <option name="METHOD_NAME" value="phone_number_of_incorrect_length_returns_invalid" />
+      <option name="METHOD_NAME" value="subscriber_number_returned_from_valid_phone_number" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneNumberValidatorTest.special_characters_removed_from_phone_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneNumberValidatorTest.subscriber_number_returns_false_from_invalid_phone_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD Phone Numbers" />
       <extension name="coverage">
         <pattern>
@@ -129,7 +132,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.phoneNumberValidator" />
       <option name="MAIN_CLASS_NAME" value="com.qa.phoneNumberValidator.PhoneNumberValidatorTest" />
-      <option name="METHOD_NAME" value="special_characters_removed_from_phone_number" />
+      <option name="METHOD_NAME" value="subscriber_number_returns_false_from_invalid_phone_number" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PhoneNumberValidatorTest.subscriber_number_returns_false_from_invalid_phone_number" />
+        <item itemvalue="JUnit.PhoneNumberValidatorTest.subscriber_number_returned_from_valid_phone_number" />
         <item itemvalue="JUnit.PhoneNumberValidatorTest" />
-        <item itemvalue="JUnit.PhoneNumberValidatorTest.special_characters_removed_from_phone_number" />
-        <item itemvalue="JUnit.PhoneNumberValidatorTest.happy_data_returns_correct_length" />
-        <item itemvalue="JUnit.PhoneNumberValidatorTest.phone_number_of_incorrect_length_returns_invalid" />
-        <item itemvalue="JUnit.PhoneNumberValidatorTest.misplaced_plus_returns_invalid" />
+        <item itemvalue="JUnit.PhoneNumberValidatorTest.exchange_code_returned_from_valid_phone_number" />
+        <item itemvalue="JUnit.PhoneNumberValidatorTest.area_code_returned_from_valid_phone_number" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +174,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1512" y="151" key="#Project_Structure" timestamp="1578914551280">
+      <screen x="1280" y="0" width="1280" height="984" />
+    </state>
+    <state x="1512" y="151" key="#Project_Structure/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578914551280" />
     <state x="1372" y="92" width="1096" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578909788976">
       <screen x="1280" y="0" width="1280" height="984" />
     </state>
@@ -187,26 +194,42 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="436" y="352" width="416" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578495456025" />
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1578912840950">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1220" height="142" key="GridCell.Tab.0.bottom" timestamp="1578925726775">
+      <screen x="1280" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578912840950" />
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578911995257" />
-    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1578912840949">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578915933666" />
+    <state width="1220" height="142" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578925726775" />
+    <state width="1220" height="142" key="GridCell.Tab.0.center" timestamp="1578925726775">
+      <screen x="1280" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578912840949" />
-    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578911995257" />
-    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1578912840949">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578915933666" />
+    <state width="1220" height="142" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578925726775" />
+    <state width="1220" height="142" key="GridCell.Tab.0.left" timestamp="1578925726775">
+      <screen x="1280" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578912840949" />
-    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578911995257" />
-    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1578912840949">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578915933666" />
+    <state width="1220" height="142" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578925726775" />
+    <state width="1220" height="142" key="GridCell.Tab.0.right" timestamp="1578925726775">
+      <screen x="1280" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578912840949" />
-    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578911995257" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578915933666" />
+    <state width="1220" height="142" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578925726775" />
+    <state width="1220" height="322" key="GridCell.Tab.1.bottom" timestamp="1578919009283">
+      <screen x="1280" y="0" width="1280" height="984" />
+    </state>
+    <state width="1220" height="322" key="GridCell.Tab.1.bottom/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578919009283" />
+    <state width="1220" height="322" key="GridCell.Tab.1.center" timestamp="1578919009283">
+      <screen x="1280" y="0" width="1280" height="984" />
+    </state>
+    <state width="1220" height="322" key="GridCell.Tab.1.center/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578919009283" />
+    <state width="1220" height="322" key="GridCell.Tab.1.left" timestamp="1578919009283">
+      <screen x="1280" y="0" width="1280" height="984" />
+    </state>
+    <state width="1220" height="322" key="GridCell.Tab.1.left/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578919009283" />
+    <state width="1220" height="322" key="GridCell.Tab.1.right" timestamp="1578919009283">
+      <screen x="1280" y="0" width="1280" height="984" />
+    </state>
+    <state width="1220" height="322" key="GridCell.Tab.1.right/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578919009283" />
     <state x="336" y="317" key="com.intellij.ide.util.TipDialog" timestamp="1578560641626">
       <screen x="0" y="0" width="1280" height="984" />
     </state>

@@ -2,6 +2,10 @@ package com.qa.phoneNumberValidator;
 
 public class PhoneNumberValidator {
     private String phoneNumber;
+    private String areaCode;
+    private String exchangeCode;
+    private String subscriberNumber;
+    private String invalidPhoneNumber = "Phone number invalid";
 
     public PhoneNumberValidator(String phoneNumber) {
         this.phoneNumber = phoneNumber;
@@ -15,5 +19,38 @@ public class PhoneNumberValidator {
         }
 
         return phoneNumber;
+    }
+
+    public String getAreaCode() {
+        getPhoneNumber();
+        if (!phoneNumber.equals("Invalid")) {
+            areaCode = phoneNumber.substring(2,5);
+        } else {
+            areaCode = invalidPhoneNumber;
+        }
+
+        return areaCode;
+    }
+
+    public String getExchangeCode() {
+        getPhoneNumber();
+        if (!phoneNumber.equals("Invalid")) {
+            exchangeCode = phoneNumber.substring(5,8);
+        } else {
+            exchangeCode = invalidPhoneNumber;
+        }
+
+        return exchangeCode;
+    }
+
+    public String getSubscriberNumber() {
+        getPhoneNumber();
+        if (!phoneNumber.equals("Invalid")) {
+            subscriberNumber = phoneNumber.substring(8,12);
+        } else {
+            subscriberNumber = invalidPhoneNumber;
+        }
+
+        return subscriberNumber;
     }
 }
